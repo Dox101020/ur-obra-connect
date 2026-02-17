@@ -54,7 +54,7 @@ const Header = () => {
             </button>
           ))}
           <button
-            onClick={() => window.location.href = import.meta.env.VITE_LOGIN_URL}
+            onClick={() => window.location.href = 'https://urcobra.com.br/public/login'}
             className="ml-4 px-6 py-2.5 rounded-md gradient-gold text-white font-semibold text-sm tracking-wide hover:opacity-90 transition-opacity shadow-gold"
           >
             Logar/Criar Conta
@@ -85,7 +85,7 @@ const Header = () => {
               </button>
             ))}
             <button
-              onClick={() => window.location.href = import.meta.env.VITE_LOGIN_URL}
+              onClick={() => window.location.href = 'https://urcobra.com.br/public/login'}
               className="mt-2 px-8 py-3 rounded-md gradient-gold text-white font-semibold text-sm tracking-wide"
             >
               Logar/Criar Conta
